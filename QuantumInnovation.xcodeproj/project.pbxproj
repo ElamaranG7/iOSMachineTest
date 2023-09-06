@@ -70,6 +70,7 @@
 		C0EE7DCD2AA8C06100DE4C2B /* HeadLineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadLineTableViewCell.xib; sourceTree = "<group>"; };
 		C0EE7DD42AA8C65800DE4C2B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		C0EE7DD72AA8C9E400DE4C2B /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		C0EE7DD92AA8DFB500DE4C2B /* QuantumInnovation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuantumInnovation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 		C0EE7D802AA8AA7C00DE4C2B /* QuantumInnovation */ = {
 			isa = PBXGroup;
 			children = (
+				C0EE7DD92AA8DFB500DE4C2B /* QuantumInnovation.entitlements */,
 				C0EE7DD62AA8C9D000DE4C2B /* CommonFunction */,
 				C0EE7DD02AA8C62500DE4C2B /* View */,
 				C0EE7DC92AA8BDEA00DE4C2B /* Model */,
@@ -550,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuantumInnovation/QuantumInnovation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -577,6 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuantumInnovation/QuantumInnovation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
