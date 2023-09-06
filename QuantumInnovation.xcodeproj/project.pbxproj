@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C0EE7D822AA8AA7C00DE4C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7D812AA8AA7C00DE4C2B /* AppDelegate.swift */; };
 		C0EE7D842AA8AA7C00DE4C2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7D832AA8AA7C00DE4C2B /* SceneDelegate.swift */; };
-		C0EE7D862AA8AA7C00DE4C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7D852AA8AA7C00DE4C2B /* ViewController.swift */; };
 		C0EE7D892AA8AA7C00DE4C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7D872AA8AA7C00DE4C2B /* Main.storyboard */; };
 		C0EE7D8C2AA8AA7C00DE4C2B /* QuantumInnovation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7D8A2AA8AA7C00DE4C2B /* QuantumInnovation.xcdatamodeld */; };
 		C0EE7D8E2AA8AA7E00DE4C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7D8D2AA8AA7E00DE4C2B /* Assets.xcassets */; };
@@ -17,6 +16,18 @@
 		C0EE7D9C2AA8AA7E00DE4C2B /* QuantumInnovationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7D9B2AA8AA7E00DE4C2B /* QuantumInnovationTests.swift */; };
 		C0EE7DA62AA8AA7E00DE4C2B /* QuantumInnovationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DA52AA8AA7E00DE4C2B /* QuantumInnovationUITests.swift */; };
 		C0EE7DA82AA8AA7E00DE4C2B /* QuantumInnovationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DA72AA8AA7E00DE4C2B /* QuantumInnovationUITestsLaunchTests.swift */; };
+		C0EE7DB62AA8AE1100DE4C2B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C0EE7DB52AA8AE1100DE4C2B /* FirebaseAuth */; };
+		C0EE7DB92AA8AE5D00DE4C2B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C0EE7DB82AA8AE5D00DE4C2B /* GoogleSignIn */; };
+		C0EE7DBB2AA8AE5D00DE4C2B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C0EE7DBA2AA8AE5D00DE4C2B /* GoogleSignInSwift */; };
+		C0EE7DC22AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DC02AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf */; };
+		C0EE7DC32AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DC12AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf */; };
+		C0EE7DC52AA8BB7300DE4C2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DC42AA8BB7300DE4C2B /* GoogleService-Info.plist */; };
+		C0EE7DC82AA8BDAC00DE4C2B /* HeadLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DC72AA8BDAC00DE4C2B /* HeadLineViewController.swift */; };
+		C0EE7DCB2AA8BE0600DE4C2B /* NewsApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DCA2AA8BE0600DE4C2B /* NewsApiResponse.swift */; };
+		C0EE7DCE2AA8C06100DE4C2B /* HeadLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DCC2AA8C06100DE4C2B /* HeadLineTableViewCell.swift */; };
+		C0EE7DCF2AA8C06100DE4C2B /* HeadLineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DCD2AA8C06100DE4C2B /* HeadLineTableViewCell.xib */; };
+		C0EE7DD52AA8C6FB00DE4C2B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DD42AA8C65800DE4C2B /* SignInViewController.swift */; };
+		C0EE7DD82AA8C9E400DE4C2B /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DD72AA8C9E400DE4C2B /* CommonFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +51,6 @@
 		C0EE7D7E2AA8AA7C00DE4C2B /* QuantumInnovation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantumInnovation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EE7D812AA8AA7C00DE4C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0EE7D832AA8AA7C00DE4C2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C0EE7D852AA8AA7C00DE4C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0EE7D882AA8AA7C00DE4C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0EE7D8B2AA8AA7C00DE4C2B /* QuantumInnovation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuantumInnovation.xcdatamodel; sourceTree = "<group>"; };
 		C0EE7D8D2AA8AA7E00DE4C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +61,16 @@
 		C0EE7DA12AA8AA7E00DE4C2B /* QuantumInnovationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumInnovationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EE7DA52AA8AA7E00DE4C2B /* QuantumInnovationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumInnovationUITests.swift; sourceTree = "<group>"; };
 		C0EE7DA72AA8AA7E00DE4C2B /* QuantumInnovationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumInnovationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0EE7DC02AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		C0EE7DC12AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		C0EE7DC42AA8BB7300DE4C2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0EE7DC72AA8BDAC00DE4C2B /* HeadLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLineViewController.swift; sourceTree = "<group>"; };
+		C0EE7DCA2AA8BE0600DE4C2B /* NewsApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApiResponse.swift; sourceTree = "<group>"; };
+		C0EE7DCC2AA8C06100DE4C2B /* HeadLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLineTableViewCell.swift; sourceTree = "<group>"; };
+		C0EE7DCD2AA8C06100DE4C2B /* HeadLineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadLineTableViewCell.xib; sourceTree = "<group>"; };
+		C0EE7DD42AA8C65800DE4C2B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C0EE7DD72AA8C9E400DE4C2B /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		C0EE7DD92AA8DFB500DE4C2B /* QuantumInnovation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuantumInnovation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EE7DBB2AA8AE5D00DE4C2B /* GoogleSignInSwift in Frameworks */,
+				C0EE7DB62AA8AE1100DE4C2B /* FirebaseAuth in Frameworks */,
+				C0EE7DB92AA8AE5D00DE4C2B /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,13 +124,16 @@
 		C0EE7D802AA8AA7C00DE4C2B /* QuantumInnovation */ = {
 			isa = PBXGroup;
 			children = (
+				C0EE7DD92AA8DFB500DE4C2B /* QuantumInnovation.entitlements */,
+				C0EE7DD62AA8C9D000DE4C2B /* CommonFunction */,
+				C0EE7DD02AA8C62500DE4C2B /* View */,
+				C0EE7DC92AA8BDEA00DE4C2B /* Model */,
+				C0EE7DBE2AA8B14B00DE4C2B /* Resourse */,
 				C0EE7D812AA8AA7C00DE4C2B /* AppDelegate.swift */,
 				C0EE7D832AA8AA7C00DE4C2B /* SceneDelegate.swift */,
-				C0EE7D852AA8AA7C00DE4C2B /* ViewController.swift */,
-				C0EE7D872AA8AA7C00DE4C2B /* Main.storyboard */,
-				C0EE7D8D2AA8AA7E00DE4C2B /* Assets.xcassets */,
-				C0EE7D8F2AA8AA7E00DE4C2B /* LaunchScreen.storyboard */,
 				C0EE7D922AA8AA7E00DE4C2B /* Info.plist */,
+				C0EE7D872AA8AA7C00DE4C2B /* Main.storyboard */,
+				C0EE7D8F2AA8AA7E00DE4C2B /* LaunchScreen.storyboard */,
 				C0EE7D8A2AA8AA7C00DE4C2B /* QuantumInnovation.xcdatamodeld */,
 			);
 			path = QuantumInnovation;
@@ -130,6 +156,76 @@
 			path = QuantumInnovationUITests;
 			sourceTree = "<group>";
 		};
+		C0EE7DBE2AA8B14B00DE4C2B /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DBF2AA8B18700DE4C2B /* Fonts */,
+				C0EE7DC42AA8BB7300DE4C2B /* GoogleService-Info.plist */,
+				C0EE7D8D2AA8AA7E00DE4C2B /* Assets.xcassets */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		C0EE7DBF2AA8B18700DE4C2B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DC12AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf */,
+				C0EE7DC02AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C0EE7DC92AA8BDEA00DE4C2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DCA2AA8BE0600DE4C2B /* NewsApiResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0EE7DD02AA8C62500DE4C2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DD32AA8C65400DE4C2B /* SignInViewController */,
+				C0EE7DD12AA8C63200DE4C2B /* HeadLineViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0EE7DD12AA8C63200DE4C2B /* HeadLineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DD22AA8C64000DE4C2B /* HeadLineTableViewCell */,
+				C0EE7DC72AA8BDAC00DE4C2B /* HeadLineViewController.swift */,
+			);
+			path = HeadLineViewController;
+			sourceTree = "<group>";
+		};
+		C0EE7DD22AA8C64000DE4C2B /* HeadLineTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DCC2AA8C06100DE4C2B /* HeadLineTableViewCell.swift */,
+				C0EE7DCD2AA8C06100DE4C2B /* HeadLineTableViewCell.xib */,
+			);
+			path = HeadLineTableViewCell;
+			sourceTree = "<group>";
+		};
+		C0EE7DD32AA8C65400DE4C2B /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DD42AA8C65800DE4C2B /* SignInViewController.swift */,
+			);
+			path = SignInViewController;
+			sourceTree = "<group>";
+		};
+		C0EE7DD62AA8C9D000DE4C2B /* CommonFunction */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DD72AA8C9E400DE4C2B /* CommonFunction.swift */,
+			);
+			path = CommonFunction;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +242,11 @@
 			dependencies = (
 			);
 			name = QuantumInnovation;
+			packageProductDependencies = (
+				C0EE7DB52AA8AE1100DE4C2B /* FirebaseAuth */,
+				C0EE7DB82AA8AE5D00DE4C2B /* GoogleSignIn */,
+				C0EE7DBA2AA8AE5D00DE4C2B /* GoogleSignInSwift */,
+			);
 			productName = QuantumInnovation;
 			productReference = C0EE7D7E2AA8AA7C00DE4C2B /* QuantumInnovation.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +319,10 @@
 				Base,
 			);
 			mainGroup = C0EE7D752AA8AA7C00DE4C2B;
+			packageReferences = (
+				C0EE7DB42AA8AE1100DE4C2B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C0EE7DB72AA8AE5D00DE4C2B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = C0EE7D7F2AA8AA7C00DE4C2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +339,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EE7DCF2AA8C06100DE4C2B /* HeadLineTableViewCell.xib in Resources */,
+				C0EE7DC22AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf in Resources */,
+				C0EE7DC32AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf in Resources */,
 				C0EE7D912AA8AA7E00DE4C2B /* LaunchScreen.storyboard in Resources */,
 				C0EE7D8E2AA8AA7E00DE4C2B /* Assets.xcassets in Resources */,
 				C0EE7D892AA8AA7C00DE4C2B /* Main.storyboard in Resources */,
+				C0EE7DC52AA8BB7300DE4C2B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +370,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0EE7D862AA8AA7C00DE4C2B /* ViewController.swift in Sources */,
+				C0EE7DD52AA8C6FB00DE4C2B /* SignInViewController.swift in Sources */,
 				C0EE7D822AA8AA7C00DE4C2B /* AppDelegate.swift in Sources */,
 				C0EE7D8C2AA8AA7C00DE4C2B /* QuantumInnovation.xcdatamodeld in Sources */,
 				C0EE7D842AA8AA7C00DE4C2B /* SceneDelegate.swift in Sources */,
+				C0EE7DCB2AA8BE0600DE4C2B /* NewsApiResponse.swift in Sources */,
+				C0EE7DC82AA8BDAC00DE4C2B /* HeadLineViewController.swift in Sources */,
+				C0EE7DD82AA8C9E400DE4C2B /* CommonFunction.swift in Sources */,
+				C0EE7DCE2AA8C06100DE4C2B /* HeadLineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuantumInnovation/QuantumInnovation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -453,7 +567,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.quantuminnovationtask.com.QuantumInnovation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elamaranG.QuantumInnovation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,6 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuantumInnovation/QuantumInnovation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -480,7 +595,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.quantuminnovationtask.com.QuantumInnovation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elamaranG.QuantumInnovation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -600,6 +715,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0EE7DB42AA8AE1100DE4C2B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		C0EE7DB72AA8AE5D00DE4C2B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0EE7DB52AA8AE1100DE4C2B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0EE7DB42AA8AE1100DE4C2B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C0EE7DB82AA8AE5D00DE4C2B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0EE7DB72AA8AE5D00DE4C2B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		C0EE7DBA2AA8AE5D00DE4C2B /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0EE7DB72AA8AE5D00DE4C2B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C0EE7D8A2AA8AA7C00DE4C2B /* QuantumInnovation.xcdatamodeld */ = {
