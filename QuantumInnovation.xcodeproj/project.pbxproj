@@ -19,10 +19,15 @@
 		C0EE7DB62AA8AE1100DE4C2B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C0EE7DB52AA8AE1100DE4C2B /* FirebaseAuth */; };
 		C0EE7DB92AA8AE5D00DE4C2B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C0EE7DB82AA8AE5D00DE4C2B /* GoogleSignIn */; };
 		C0EE7DBB2AA8AE5D00DE4C2B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C0EE7DBA2AA8AE5D00DE4C2B /* GoogleSignInSwift */; };
-		C0EE7DBD2AA8AEF000DE4C2B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DBC2AA8AEF000DE4C2B /* SignInViewController.swift */; };
 		C0EE7DC22AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DC02AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf */; };
 		C0EE7DC32AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DC12AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf */; };
 		C0EE7DC52AA8BB7300DE4C2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DC42AA8BB7300DE4C2B /* GoogleService-Info.plist */; };
+		C0EE7DC82AA8BDAC00DE4C2B /* HeadLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DC72AA8BDAC00DE4C2B /* HeadLineViewController.swift */; };
+		C0EE7DCB2AA8BE0600DE4C2B /* NewsApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DCA2AA8BE0600DE4C2B /* NewsApiResponse.swift */; };
+		C0EE7DCE2AA8C06100DE4C2B /* HeadLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DCC2AA8C06100DE4C2B /* HeadLineTableViewCell.swift */; };
+		C0EE7DCF2AA8C06100DE4C2B /* HeadLineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DCD2AA8C06100DE4C2B /* HeadLineTableViewCell.xib */; };
+		C0EE7DD52AA8C6FB00DE4C2B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DD42AA8C65800DE4C2B /* SignInViewController.swift */; };
+		C0EE7DD82AA8C9E400DE4C2B /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DD72AA8C9E400DE4C2B /* CommonFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +61,15 @@
 		C0EE7DA12AA8AA7E00DE4C2B /* QuantumInnovationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumInnovationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EE7DA52AA8AA7E00DE4C2B /* QuantumInnovationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumInnovationUITests.swift; sourceTree = "<group>"; };
 		C0EE7DA72AA8AA7E00DE4C2B /* QuantumInnovationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumInnovationUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C0EE7DBC2AA8AEF000DE4C2B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../../SignInViewController.swift; sourceTree = "<group>"; };
 		C0EE7DC02AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		C0EE7DC12AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
 		C0EE7DC42AA8BB7300DE4C2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0EE7DC72AA8BDAC00DE4C2B /* HeadLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLineViewController.swift; sourceTree = "<group>"; };
+		C0EE7DCA2AA8BE0600DE4C2B /* NewsApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApiResponse.swift; sourceTree = "<group>"; };
+		C0EE7DCC2AA8C06100DE4C2B /* HeadLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLineTableViewCell.swift; sourceTree = "<group>"; };
+		C0EE7DCD2AA8C06100DE4C2B /* HeadLineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadLineTableViewCell.xib; sourceTree = "<group>"; };
+		C0EE7DD42AA8C65800DE4C2B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C0EE7DD72AA8C9E400DE4C2B /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +123,12 @@
 		C0EE7D802AA8AA7C00DE4C2B /* QuantumInnovation */ = {
 			isa = PBXGroup;
 			children = (
+				C0EE7DD62AA8C9D000DE4C2B /* CommonFunction */,
+				C0EE7DD02AA8C62500DE4C2B /* View */,
+				C0EE7DC92AA8BDEA00DE4C2B /* Model */,
 				C0EE7DBE2AA8B14B00DE4C2B /* Resourse */,
 				C0EE7D812AA8AA7C00DE4C2B /* AppDelegate.swift */,
 				C0EE7D832AA8AA7C00DE4C2B /* SceneDelegate.swift */,
-				C0EE7DBC2AA8AEF000DE4C2B /* SignInViewController.swift */,
 				C0EE7D922AA8AA7E00DE4C2B /* Info.plist */,
 				C0EE7D872AA8AA7C00DE4C2B /* Main.storyboard */,
 				C0EE7D8F2AA8AA7E00DE4C2B /* LaunchScreen.storyboard */,
@@ -159,6 +171,57 @@
 				C0EE7DC02AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C0EE7DC92AA8BDEA00DE4C2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DCA2AA8BE0600DE4C2B /* NewsApiResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0EE7DD02AA8C62500DE4C2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DD32AA8C65400DE4C2B /* SignInViewController */,
+				C0EE7DD12AA8C63200DE4C2B /* HeadLineViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0EE7DD12AA8C63200DE4C2B /* HeadLineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DD22AA8C64000DE4C2B /* HeadLineTableViewCell */,
+				C0EE7DC72AA8BDAC00DE4C2B /* HeadLineViewController.swift */,
+			);
+			path = HeadLineViewController;
+			sourceTree = "<group>";
+		};
+		C0EE7DD22AA8C64000DE4C2B /* HeadLineTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DCC2AA8C06100DE4C2B /* HeadLineTableViewCell.swift */,
+				C0EE7DCD2AA8C06100DE4C2B /* HeadLineTableViewCell.xib */,
+			);
+			path = HeadLineTableViewCell;
+			sourceTree = "<group>";
+		};
+		C0EE7DD32AA8C65400DE4C2B /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DD42AA8C65800DE4C2B /* SignInViewController.swift */,
+			);
+			path = SignInViewController;
+			sourceTree = "<group>";
+		};
+		C0EE7DD62AA8C9D000DE4C2B /* CommonFunction */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE7DD72AA8C9E400DE4C2B /* CommonFunction.swift */,
+			);
+			path = CommonFunction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EE7DCF2AA8C06100DE4C2B /* HeadLineTableViewCell.xib in Resources */,
 				C0EE7DC22AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf in Resources */,
 				C0EE7DC32AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf in Resources */,
 				C0EE7D912AA8AA7E00DE4C2B /* LaunchScreen.storyboard in Resources */,
@@ -304,10 +368,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EE7DD52AA8C6FB00DE4C2B /* SignInViewController.swift in Sources */,
 				C0EE7D822AA8AA7C00DE4C2B /* AppDelegate.swift in Sources */,
 				C0EE7D8C2AA8AA7C00DE4C2B /* QuantumInnovation.xcdatamodeld in Sources */,
-				C0EE7DBD2AA8AEF000DE4C2B /* SignInViewController.swift in Sources */,
 				C0EE7D842AA8AA7C00DE4C2B /* SceneDelegate.swift in Sources */,
+				C0EE7DCB2AA8BE0600DE4C2B /* NewsApiResponse.swift in Sources */,
+				C0EE7DC82AA8BDAC00DE4C2B /* HeadLineViewController.swift in Sources */,
+				C0EE7DD82AA8C9E400DE4C2B /* CommonFunction.swift in Sources */,
+				C0EE7DCE2AA8C06100DE4C2B /* HeadLineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

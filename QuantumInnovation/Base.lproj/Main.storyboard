@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s3R-RN-0wC">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
@@ -21,20 +21,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login into your Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qeX-7Q-gmq">
-                                <rect key="frame" x="25" y="425.33333333333331" width="343" height="26.666666666666686"/>
+                                <rect key="frame" x="25" y="447.33333333333331" width="343" height="26.666666666666686"/>
                                 <fontDescription key="fontDescription" name="RobotoSlab-Bold" family="Roboto Slab" pointSize="20"/>
                                 <color key="textColor" red="0.21568629149999999" green="0.44313728810000003" blue="0.60784316059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="DqH-gY-qDV">
-                                <rect key="frame" x="71.666666666666686" y="225.33333333333337" width="250" height="200"/>
+                                <rect key="frame" x="71.666666666666686" y="247.33333333333337" width="250" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="5YY-9m-lKg"/>
                                     <constraint firstAttribute="width" constant="250" id="SiH-oL-zIw"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NNd-dr-TKD">
-                                <rect key="frame" x="128.66666666666669" y="477" width="135.66666666666669" height="50"/>
+                                <rect key="frame" x="128.66666666666669" y="499" width="135.66666666666669" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gf-an-vkT">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -76,8 +76,9 @@
                             <constraint firstItem="qeX-7Q-gmq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="n00-3e-GkF"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="1MV-xs-QPc"/>
                     <connections>
-                        <outlet property="appleLoginButton" destination="dR7-La-P9y" id="1hz-mV-ztn"/>
+                        <outlet property="appleLoginButton" destination="dR7-La-P9y" id="2cq-NZ-7Ms"/>
                         <outlet property="googleLoginButton" destination="2Gf-an-vkT" id="82m-fy-dgu"/>
                         <outlet property="loginLabel" destination="qeX-7Q-gmq" id="ttu-tU-tLO"/>
                         <outlet property="titleImage" destination="DqH-gY-qDV" id="xpJ-kW-Kys"/>
@@ -85,12 +86,110 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="895.41984732824426" y="-27.464788732394368"/>
+        </scene>
+        <!--Head Line View Controller-->
+        <scene sceneID="Mro-iq-zMs">
+            <objects>
+                <viewController storyboardIdentifier="HeadLineViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fuu-fD-pEK" customClass="HeadLineViewController" customModule="QuantumInnovation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="68X-dX-AqH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6WE-fu-rhR">
+                                <rect key="frame" x="0.0" y="123.33333333333331" width="393" height="728.66666666666674"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pc1-b7-iEr">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="728.66666666666663"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="fuu-fD-pEK" id="gZc-18-fPu"/>
+                                            <outlet property="delegate" destination="fuu-fD-pEK" id="pcB-kC-P2m"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="pc1-b7-iEr" firstAttribute="top" secondItem="6WE-fu-rhR" secondAttribute="top" id="E62-3R-07k"/>
+                                    <constraint firstAttribute="bottom" secondItem="pc1-b7-iEr" secondAttribute="bottom" id="SXd-dB-ozt"/>
+                                    <constraint firstItem="pc1-b7-iEr" firstAttribute="leading" secondItem="6WE-fu-rhR" secondAttribute="leading" id="uaD-ye-TDm"/>
+                                    <constraint firstAttribute="trailing" secondItem="pc1-b7-iEr" secondAttribute="trailing" id="zE1-WO-zbT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hqf-cP-AGO">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="123.33333333333333"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEADLINES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3h-Lc-1rt">
+                                        <rect key="frame" x="20" y="69" width="353" height="38.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="RobotoSlab-Bold" family="Roboto Slab" pointSize="29"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F73-AZ-QRe">
+                                        <rect key="frame" x="348" y="75.666666666666671" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="0ie-L9-J4k"/>
+                                            <constraint firstAttribute="width" constant="25" id="TVV-BK-mNY"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="logout"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="F73-AZ-QRe" firstAttribute="centerY" secondItem="f3h-Lc-1rt" secondAttribute="centerY" id="0SX-jA-dRm"/>
+                                    <constraint firstAttribute="bottom" secondItem="f3h-Lc-1rt" secondAttribute="bottom" constant="16" id="74t-mX-J8u"/>
+                                    <constraint firstAttribute="trailing" secondItem="f3h-Lc-1rt" secondAttribute="trailing" constant="20" id="8Yy-Ew-401"/>
+                                    <constraint firstItem="F73-AZ-QRe" firstAttribute="trailing" secondItem="f3h-Lc-1rt" secondAttribute="trailing" id="Dke-7F-HAS"/>
+                                    <constraint firstItem="f3h-Lc-1rt" firstAttribute="leading" secondItem="Hqf-cP-AGO" secondAttribute="leading" constant="20" id="mGy-Ka-6gV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h93-vI-buU"/>
+                        <color key="backgroundColor" red="0.27450980392156865" green="0.27450980392156865" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6WE-fu-rhR" firstAttribute="top" secondItem="Hqf-cP-AGO" secondAttribute="bottom" id="58E-ga-0pi"/>
+                            <constraint firstItem="6WE-fu-rhR" firstAttribute="leading" secondItem="h93-vI-buU" secondAttribute="leading" id="D9t-H1-kAa"/>
+                            <constraint firstItem="Hqf-cP-AGO" firstAttribute="leading" secondItem="h93-vI-buU" secondAttribute="leading" id="P48-5K-HuV"/>
+                            <constraint firstItem="h93-vI-buU" firstAttribute="trailing" secondItem="Hqf-cP-AGO" secondAttribute="trailing" id="aCn-dt-qHO"/>
+                            <constraint firstItem="h93-vI-buU" firstAttribute="trailing" secondItem="6WE-fu-rhR" secondAttribute="trailing" id="lH1-wV-KB9"/>
+                            <constraint firstItem="Hqf-cP-AGO" firstAttribute="top" secondItem="68X-dX-AqH" secondAttribute="top" id="lhW-4h-Rvy"/>
+                            <constraint firstItem="f3h-Lc-1rt" firstAttribute="top" secondItem="h93-vI-buU" secondAttribute="top" constant="10" id="q9B-hM-re9"/>
+                            <constraint firstAttribute="bottom" secondItem="6WE-fu-rhR" secondAttribute="bottom" id="w95-rP-Q8R"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logoutButton" destination="F73-AZ-QRe" id="jt0-jc-lip"/>
+                        <outlet property="tableveiw" destination="pc1-b7-iEr" id="Gw9-xv-oW2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pjw-tH-GE7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1611.4503816793892" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YrI-55-GDj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="s3R-RN-0wC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NFe-rS-Sxl">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="o4E-dJ-tre"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LGh-SR-SlU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="-31.297709923664122" y="-27.464788732394368"/>
         </scene>
     </scenes>
     <resources>
         <image name="apple_icon" width="85" height="85"/>
         <image name="google" width="32" height="32"/>
+        <image name="logout" width="24" height="24"/>
         <image name="splash" width="1024" height="1024"/>
     </resources>
 </document>
