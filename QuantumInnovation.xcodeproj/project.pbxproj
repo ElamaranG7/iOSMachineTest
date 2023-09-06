@@ -22,6 +22,7 @@
 		C0EE7DBD2AA8AEF000DE4C2B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7DBC2AA8AEF000DE4C2B /* SignInViewController.swift */; };
 		C0EE7DC22AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DC02AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf */; };
 		C0EE7DC32AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DC12AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf */; };
+		C0EE7DC52AA8BB7300DE4C2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7DC42AA8BB7300DE4C2B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		C0EE7DBC2AA8AEF000DE4C2B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../../SignInViewController.swift; sourceTree = "<group>"; };
 		C0EE7DC02AA8B1A600DE4C2B /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		C0EE7DC12AA8B1A600DE4C2B /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		C0EE7DC42AA8BB7300DE4C2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +117,9 @@
 				C0EE7D812AA8AA7C00DE4C2B /* AppDelegate.swift */,
 				C0EE7D832AA8AA7C00DE4C2B /* SceneDelegate.swift */,
 				C0EE7DBC2AA8AEF000DE4C2B /* SignInViewController.swift */,
-				C0EE7D872AA8AA7C00DE4C2B /* Main.storyboard */,
-				C0EE7D8D2AA8AA7E00DE4C2B /* Assets.xcassets */,
-				C0EE7D8F2AA8AA7E00DE4C2B /* LaunchScreen.storyboard */,
 				C0EE7D922AA8AA7E00DE4C2B /* Info.plist */,
+				C0EE7D872AA8AA7C00DE4C2B /* Main.storyboard */,
+				C0EE7D8F2AA8AA7E00DE4C2B /* LaunchScreen.storyboard */,
 				C0EE7D8A2AA8AA7C00DE4C2B /* QuantumInnovation.xcdatamodeld */,
 			);
 			path = QuantumInnovation;
@@ -145,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				C0EE7DBF2AA8B18700DE4C2B /* Fonts */,
+				C0EE7DC42AA8BB7300DE4C2B /* GoogleService-Info.plist */,
+				C0EE7D8D2AA8AA7E00DE4C2B /* Assets.xcassets */,
 			);
 			path = Resourse;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				C0EE7D912AA8AA7E00DE4C2B /* LaunchScreen.storyboard in Resources */,
 				C0EE7D8E2AA8AA7E00DE4C2B /* Assets.xcassets in Resources */,
 				C0EE7D892AA8AA7C00DE4C2B /* Main.storyboard in Resources */,
+				C0EE7DC52AA8BB7300DE4C2B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

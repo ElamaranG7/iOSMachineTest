@@ -21,18 +21,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login into your Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qeX-7Q-gmq">
-                                <rect key="frame" x="25" y="284" width="343" height="26.666666666666686"/>
+                                <rect key="frame" x="25" y="425.33333333333331" width="343" height="26.666666666666686"/>
                                 <fontDescription key="fontDescription" name="RobotoSlab-Bold" family="Roboto Slab" pointSize="20"/>
                                 <color key="textColor" red="0.21568629149999999" green="0.44313728810000003" blue="0.60784316059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="DqH-gY-qDV">
-                                <rect key="frame" x="71.666666666666686" y="84" width="250" height="200"/>
+                                <rect key="frame" x="71.666666666666686" y="225.33333333333337" width="250" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="5YY-9m-lKg"/>
                                     <constraint firstAttribute="width" constant="250" id="SiH-oL-zIw"/>
                                 </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NNd-dr-TKD">
+                                <rect key="frame" x="128.66666666666669" y="477" width="135.66666666666669" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gf-an-vkT">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="rMP-wY-XVM"/>
+                                            <constraint firstAttribute="width" constant="50" id="xVl-lH-o7i"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="google"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAW-sr-eUU">
+                                        <rect key="frame" x="59.999999999999993" y="0.0" width="15.666666666666664" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dR7-La-P9y">
+                                        <rect key="frame" x="85.666666666666686" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="9mw-7f-ejh"/>
+                                            <constraint firstAttribute="height" constant="50" id="tGj-hv-Bzf"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="apple_icon"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -41,10 +70,18 @@
                             <constraint firstItem="qeX-7Q-gmq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="2Kf-tX-Uas"/>
                             <constraint firstItem="qeX-7Q-gmq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5Mk-CO-woT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qeX-7Q-gmq" secondAttribute="trailing" constant="25" id="DRz-ZL-qca"/>
+                            <constraint firstItem="NNd-dr-TKD" firstAttribute="top" secondItem="qeX-7Q-gmq" secondAttribute="bottom" constant="25" id="TuA-wp-Dy6"/>
+                            <constraint firstItem="NNd-dr-TKD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="c5t-XL-Yw1"/>
                             <constraint firstItem="qeX-7Q-gmq" firstAttribute="top" secondItem="DqH-gY-qDV" secondAttribute="bottom" id="eQL-XQ-45f"/>
-                            <constraint firstItem="DqH-gY-qDV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="pq2-Bc-gRg"/>
+                            <constraint firstItem="qeX-7Q-gmq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="n00-3e-GkF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="appleLoginButton" destination="dR7-La-P9y" id="1hz-mV-ztn"/>
+                        <outlet property="googleLoginButton" destination="2Gf-an-vkT" id="82m-fy-dgu"/>
+                        <outlet property="loginLabel" destination="qeX-7Q-gmq" id="ttu-tU-tLO"/>
+                        <outlet property="titleImage" destination="DqH-gY-qDV" id="xpJ-kW-Kys"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,6 +89,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="apple_icon" width="85" height="85"/>
+        <image name="google" width="32" height="32"/>
         <image name="splash" width="1024" height="1024"/>
     </resources>
 </document>
