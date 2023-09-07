@@ -101,6 +101,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4170CA2AA9BAF00056F687 /* DetailsHeadlineViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailsHeadlineViewController;
+			sourceTree = "<group>";
+		};
 		C0EE7D752AA8AA7C00DE4C2B = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +193,7 @@
 		C0EE7DD02AA8C62500DE4C2B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F4170CA2AA9BAF00056F687 /* DetailsHeadlineViewController */,
 				C0EE7DD32AA8C65400DE4C2B /* SignInViewController */,
 				C0EE7DD12AA8C63200DE4C2B /* HeadLineViewController */,
 			);
@@ -483,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -537,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

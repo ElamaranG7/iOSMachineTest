@@ -16,6 +16,7 @@ class HeadLineViewController: UIViewController {
     
     @IBOutlet weak var logoutButton: UIButton!
     @IBOutlet weak var tableveiw: UITableView!
+    var google = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,21 +39,31 @@ class HeadLineViewController: UIViewController {
         tableveiw.register(UINib(nibName: "HeadLineTableViewCell", bundle: nil), forCellReuseIdentifier: "HeadLineTableViewCell")
     }
     @objc private func logoutButtonAction(_ sender: UIButton) {
-        let firebaseAuth = Auth.auth()
-        do {
-          try firebaseAuth.signOut()
-            DispatchQueue.main.async {
-                if let appDomain = Bundle.main.bundleIdentifier {
-                   UserDefaults.standard.removePersistentDomain(forName: appDomain)
+        
+        if google{
+            let firebaseAuth = Auth.auth()
+            do {
+                try firebaseAuth.signOut()
+                DispatchQueue.main.async {
+                    if let appDomain = Bundle.main.bundleIdentifier {
+                        UserDefaults.standard.removePersistentDomain(forName: appDomain)
+                    }
+                    UserDefaults.standard.set(false, forKey: "signIn")
+                    UserDefaults.standard.setValue(nil, forKey: "username")
+                    UserDefaults.standard.setValue(nil, forKey: "userimg")
+                    UserDefaults.standard.setValue(nil, forKey: "emailID")
+                    self.navigationController?.popViewController(animated: true)
                 }
-                UserDefaults.standard.set(false, forKey: "signIn")
-                UserDefaults.standard.setValue(nil, forKey: "username")
-                UserDefaults.standard.setValue(nil, forKey: "userimg")
-                UserDefaults.standard.setValue(nil, forKey: "emailID")
-                self.navigationController?.popViewController(animated: true)
+            } catch let signOutError as NSError {
+                print("Error signing out: %@", signOutError)
             }
-        } catch let signOutError as NSError {
-          print("Error signing out: %@", signOutError)
+        }else{
+            
+            KeychainItem.deleteUserIdentifierFromKeychain()
+            // Display the login controller again.
+            DispatchQueue.main.async {
+                self.showLoginViewController()
+            }
         }
         
     }
