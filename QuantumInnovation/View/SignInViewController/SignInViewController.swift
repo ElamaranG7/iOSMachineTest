@@ -40,9 +40,22 @@ class SignInViewController: UIViewController {
         performExistingAccountSetupFlows()
         
     }
+    func alerts(){
+        let alert = UIAlertController(title: nil, message: "Please wait...", preferredStyle: .alert)
+
+        alert.view.tintColor = UIColor.black
+        let loadingIndicator: UIActivityIndicatorView = UIActivityIndicatorView(frame: CGRectMake(10, 5, 50, 50)) as UIActivityIndicatorView
+        loadingIndicator.hidesWhenStopped = true
+        loadingIndicator.style = UIActivityIndicatorView.Style.gray
+        loadingIndicator.startAnimating();
+
+        alert.view.addSubview(loadingIndicator)
+        present(alert, animated: true, completion: nil)
+    }
     
     @objc func googleLoginButtonAction(_ sender: UIButton) {
         createAuthcredential()
+        alerts()
     }
     @objc func appleLoginButtonAction(_ sender: UIButton) {
         handleAuthorizationAppleIDButtonPress()
@@ -51,6 +64,7 @@ class SignInViewController: UIViewController {
         
         let headLineViewController = self.storyboard!.instantiateViewController(withIdentifier: "HeadLineViewController") as! HeadLineViewController
         headLineViewController.google = true
+        self.dismiss(animated: false, completion: nil)
         self.navigationController?.pushViewController(headLineViewController, animated: true)
     }
     

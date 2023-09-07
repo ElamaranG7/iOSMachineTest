@@ -42,7 +42,7 @@ class HeadLineTableViewCell: UITableViewCell {
         }
 
         self.sourceNameLabel.text = articles?.source?.name ?? ""
-        self.urlImage.setImage(with: articles?.urlToImage, placeHolder: #imageLiteral(resourceName: "google"))
+        self.urlImage.setImage(with: articles?.urlToImage, placeHolder: #imageLiteral(resourceName: "news-placeholder"))
     }
     
 }

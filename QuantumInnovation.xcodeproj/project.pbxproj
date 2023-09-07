@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4170CC2AA9D4B90056F687 /* DetailsHeadLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4170CB2AA9D4B90056F687 /* DetailsHeadLineViewController.swift */; };
 		C0EE7D822AA8AA7C00DE4C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7D812AA8AA7C00DE4C2B /* AppDelegate.swift */; };
 		C0EE7D842AA8AA7C00DE4C2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7D832AA8AA7C00DE4C2B /* SceneDelegate.swift */; };
 		C0EE7D892AA8AA7C00DE4C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EE7D872AA8AA7C00DE4C2B /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F4170CB2AA9D4B90056F687 /* DetailsHeadLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHeadLineViewController.swift; sourceTree = "<group>"; };
 		C0EE7D7E2AA8AA7C00DE4C2B /* QuantumInnovation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantumInnovation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EE7D812AA8AA7C00DE4C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0EE7D832AA8AA7C00DE4C2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		1F4170CA2AA9BAF00056F687 /* DetailsHeadlineViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1F4170CB2AA9D4B90056F687 /* DetailsHeadLineViewController.swift */,
 			);
 			path = DetailsHeadlineViewController;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				C0EE7DD52AA8C6FB00DE4C2B /* SignInViewController.swift in Sources */,
 				C0EE7D822AA8AA7C00DE4C2B /* AppDelegate.swift in Sources */,
 				C0EE7D8C2AA8AA7C00DE4C2B /* QuantumInnovation.xcdatamodeld in Sources */,
+				1F4170CC2AA9D4B90056F687 /* DetailsHeadLineViewController.swift in Sources */,
 				C0EE7D842AA8AA7C00DE4C2B /* SceneDelegate.swift in Sources */,
 				C0EE7DCB2AA8BE0600DE4C2B /* NewsApiResponse.swift in Sources */,
 				C0EE7DC82AA8BDAC00DE4C2B /* HeadLineViewController.swift in Sources */,

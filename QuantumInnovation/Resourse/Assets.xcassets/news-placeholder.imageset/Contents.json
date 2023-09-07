@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "pngegg.png",
+      "filename" : "news-placeholder.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "pngegg 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

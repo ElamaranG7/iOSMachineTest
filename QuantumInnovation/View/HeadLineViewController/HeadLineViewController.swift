@@ -89,9 +89,14 @@ extension HeadLineViewController : UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //        let vc  = storyboard?.instantiateViewController(withIdentifier: "DetailedHomePageViewController") as! DetailedHomePageViewController
-        ////        vc. = articlesStruct[indexPath.row]
-        //        self.navigationController?.pushViewController(vc, animated: true)
+                let vc  = storyboard?.instantiateViewController(withIdentifier: "DetailsHeadLineViewController") as! DetailsHeadLineViewController
+        vc.titleName = newsApiResponse?.articles?[indexPath.row].title ?? ""
+        vc.source = newsApiResponse?.articles?[indexPath.row].source?.name ?? ""
+        vc.descriptionDetails = newsApiResponse?.articles?[indexPath.row].description ?? ""
+        vc.date = newsApiResponse?.articles?[indexPath.row].publishedAt ?? ""
+        vc.imagesUrl = newsApiResponse?.articles?[indexPath.row].urlToImage ?? ""
+        
+                self.navigationController?.pushViewController(vc, animated: true)
     }
     
     

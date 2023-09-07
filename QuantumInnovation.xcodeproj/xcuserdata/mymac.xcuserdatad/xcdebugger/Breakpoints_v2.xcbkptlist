@@ -30,8 +30,8 @@
             filePath = "QuantumInnovation/View/SignInViewController/SignInViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
             landmarkName = "showResultViewController(userIdentifier:fullName:email:)"
             landmarkType = "7">
          </BreakpointContent>
